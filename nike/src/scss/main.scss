@@ -1,0 +1,72 @@
+@import 'variables';
+@import 'fonts/icons';
+@import 'pages/index';
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: $light-gray;
+    font-weight: 100;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        display: block;
+    }
+}
+
+.btn {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+    &_add-product {
+        background-color: $btn-blue;
+        padding: 15px;
+        font-size: 14px;
+        width: 100%;
+        border: 1px solid $border-color;
+        text-align: center;
+        outline: none;
+        transition: all .2s linear;
+
+        &:hover {
+            background-color: #39475f;
+        }
+    }
+}
+
+.container {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+

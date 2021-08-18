@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/main.css">
+    <title>Nike</title>
+</head>
+<body>
+    <main class="main">
+        <section class="product-slider" style="background-image: url('src/img/bg-img1.png'), url('src/img/bg-img2.png'), url('src/img/bg-img3.png');">
+            <div class="container">
+                <div class="product-slider__card">
+                    <div class="product-slider__logo">
+                        <img src="src/img/logo.png" alt="nike">
+                    </div>
+                    <div class="product-slider__row">
+                        <div class="product-slider__column">
+                            <div class="product-slider__photo">
+                                <img src="src/img/Nike-SB-Stefan-Janoski-Max.png" alt="photo">
+                            </div>
+                            <ul class="product-slider__nav">
+                                <li class="product-slider__nav-item">
+                                    <button class="product-slider__bullet product-slider__bullet_active product-slider__bullet_dark-blue"></button>
+                                </li>
+                                <li class="product-slider__nav-item">
+                                    <button class="product-slider__bullet product-slider__bullet_white"></button>
+                                </li>
+                                <li class="product-slider__nav-item">
+                                    <button class="product-slider__bullet product-slider__bullet_red"></button>
+                                </li>
+                                <li class="product-slider__nav-item">
+                                    <button class="product-slider__bullet product-slider__bullet_blue"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product-slider__column product-slider__column_description">
+                            <h1 class="product-slider__title">Nike SB Stefan Janoski Max</h1>
+                            <strong class="product-slider__subtitle">Unisex Skateboarding Shoe</strong>
+                            <ul class="product-slider__rating">
+                                <li class="product-slider__rating-item product-slider__rating-item_active">
+                                    <i class="icon-star"></i>
+                                </li>
+                                <li class="product-slider__rating-item product-slider__rating-item_active">
+                                    <i class="icon-star"></i>
+                                </li>
+                                <li class="product-slider__rating-item product-slider__rating-item_active">
+                                    <i class="icon-star"></i>
+                                </li>
+                                <li class="product-slider__rating-item product-slider__rating-item">
+                                    <i class="icon-star"></i>
+                                </li>
+                                <li class="product-slider__rating-item product-slider__rating-item">
+                                    <i class="icon-star"></i>
+                                </li>
+                            </ul>
+                            <form class="product-slider__form" action="#" method="GET">
+                                <select class="product-slider__select" name="size" id="size">
+                                    <option value="0" selected>Size</option>
+                                    <option value="1">38</option>
+                                    <option value="2">39</option>
+                                    <option value="3">40</option>
+                                    <option value="4">41</option>
+                                    <option value="5">42</option>
+                                </select>
+                                <select class="product-slider__select" name="qty" id="qty">
+                                    <option value="0" selected>Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <a href="#" class="btn btn_add-product">Add to cart</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
