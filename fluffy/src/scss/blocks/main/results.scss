@@ -1,0 +1,30 @@
+.results {
+    background-color: $header-bg;
+    padding: 60px 0;
+    margin-bottom: 100px;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        padding: 0 64px;
+    }
+
+    &__num {
+        font-size: 46px;
+        font-weight: 400;
+        color: $text-black;
+
+        & > span {
+            color: $orange;
+        }
+    }
+
+    &__description {
+        font-size: 16px;
+        font-weight: 500;
+        color: $text-blue;
+    }
+}

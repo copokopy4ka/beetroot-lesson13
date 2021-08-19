@@ -1,0 +1,62 @@
+@import 'vars';
+@import 'fonts';
+@import 'blocks/index';
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: $avenirNext;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: $white;
+    padding: 18px 42px;
+    transition: all .2s linear;
+
+    &:hover {
+        background-color: #ea4f20;
+    }
+
+    &_orange {
+        background-color: $orange;
+
+    }
+}
+
